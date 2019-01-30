@@ -1,0 +1,23 @@
+body{
+background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+background-size: cover;
+background-position:top;
+
+}
+
+
+
+
+h1 {
+  font-family: Georgia, serif;
+color:#hsla(360, 100%, 100%, 0.5);
+text-align:center;
+}
+
+.main{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 60px;
+
+}
