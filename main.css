@@ -14,10 +14,15 @@ color:#hsla(360, 100%, 100%, 0.5);
 text-align:center;
 }
 
-.main{
+.main {
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
 margin-top: 60px;
+
+}
+
+.container li {
+display: inline;
 
 }
