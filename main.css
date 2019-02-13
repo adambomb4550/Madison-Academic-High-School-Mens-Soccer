@@ -28,7 +28,8 @@ margin-top: 60px;
 }
 
 header {
-  background: #55d6aa;
+  background: #B0E0E8;
+
   }
 
   header::after {
@@ -44,6 +45,7 @@ header {
 
   nav {
     float: right;
+
   }
 
   nav ul {
@@ -56,16 +58,37 @@ header {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
+    padding-bottom: 23px;
+    list-style: none;
 
   }
 
   nav a {
-    colro:#444;
     text-decorattion: none;
-    text-transform: uppercase;
-    font-size: 14px;
+    font-size: 17px;
+    font-family: arial;
+    padding: 0 auto;
+    color: #696989;
+    font-weight: bold;
   }
 
   nav a:hover {
-    color: #000;
+    color: red;
+  }
+
+  .info {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    display: grid;
+    grid-template-rows: 450px;
+    grid-template-columns: 600px 1000px;
+  }
+
+  .info p {
+    font-family: arial;
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 1000;
   }
