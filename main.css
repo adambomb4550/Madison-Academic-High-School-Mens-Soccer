@@ -79,39 +79,44 @@ header {
   .info {
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 10%;
     display: grid;
-    grid-template-rows: 450px;
-    grid-template-columns: 600px 1000px;
+    grid-template-rows: 8%;
+    grid-template-columns: 20% 40%;
+    grid-column-gap: 10%;
+    padding-top: 1%;
+    padding-bottom: 5%;
   }
 
   .info p {
     font-family: arial;
     font-size: 20px;
-    position: relative;
-    top: 100px;
-
+    padding-top: 30%;
+    padding-left: 10%;
   }
 
   .info img {
-    height: 350px;
+    height: 110%;
+    width: 120%;
     position: relative;
-    left: 50px;
+    left: 2%;
   }
 
   .info2 {
     position: relative;
     bottom: 150px;
     left: 50px;
-
+    padding-top: 2%;
   }
 
   .info2 img {
     float: right;
     position: relative;
-    right: 300px;
+    right: 20%;
     top: 50px;
-    height: 350px;
+    height: 5%;
+    width: 24%;
+
   }
 
   .info2 p {
@@ -119,8 +124,9 @@ header {
     font-size: 20px;
     position: relative;
     top: 250px;
-    left: 50px;
+    left: 10%;
     line-height: 13px;
+    padding-right: 5%;
   }
 
   * {box-sizing:border-box}
