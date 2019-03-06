@@ -1,16 +1,14 @@
 body{
-background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
-background-size: cover;
-background-position:top;
-
+  height: 100%;
+  background-color: #E3E3E3;
 }
 
 
 
 
 h1 {
-  font-family: Georgia, serif;
-color:#hsla(360, 100%, 100%, 0.5);
+font-family: Georgia, serif;
+color: #C60021;
 text-align:center;
 }
 
@@ -28,8 +26,8 @@ margin-top: 60px;
 }
 
 header {
-  background: #B0E0E8;
 
+  background-color: #F6F6F8;
   }
 
   header::after {
@@ -60,7 +58,7 @@ header {
     padding-top: 23px;
     padding-bottom: 23px;
     list-style: none;
-
+    color: #C60021;
   }
 
   nav a {
@@ -103,19 +101,17 @@ header {
   }
 
   .info2 {
-    position: relative;
-    bottom: 150px;
-    left: 50px;
+    display: grid;
+    grid-template-rows: 8%;
+    grid-template-columns: 40% 20%;
+    grid-column-gap: 15%;
+
     padding-top: 2%;
   }
 
   .info2 img {
-    float: right;
-    position: relative;
-    right: 20%;
-    top: 50px;
-    height: 5%;
-    width: 24%;
+    height: 110%;
+    width: 120%;
 
   }
 
@@ -123,10 +119,12 @@ header {
     font-family: arial;
     font-size: 20px;
     position: relative;
-    top: 250px;
+    top: 20%;
     left: 10%;
-    line-height: 13px;
+    line-height: 25px;
     padding-right: 5%;
+    padding-top: 30%;
+    padding-left: 4%;
   }
 
   * {box-sizing:border-box}
@@ -222,4 +220,21 @@ header {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  #whole {
+    min-height: 100%;
+  }
+
+  #inside {
+    overflow: auto;
+    padding-bottom: 100px;
+  }
+
+  #footer {
+    background-color: black;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
   }
