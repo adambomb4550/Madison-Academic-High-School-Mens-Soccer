@@ -221,20 +221,3 @@ header {
     from {opacity: .4}
     to {opacity: 1}
   }
-
-  #whole {
-    min-height: 100%;
-  }
-
-  #inside {
-    overflow: auto;
-    padding-bottom: 100px;
-  }
-
-  #footer {
-    background-color: black;
-    position: relative;
-    height: 100px;
-    margin-top: -100px;
-    clear: both;
-  }
