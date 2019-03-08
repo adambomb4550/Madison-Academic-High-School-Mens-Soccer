@@ -56,7 +56,7 @@ header {
   nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 23px;
+    padding-top: 40px;
     padding-bottom: 23px;
     list-style: none;
     color: #C60021;
@@ -238,4 +238,10 @@ header {
   @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+  }
+
+  #logo {
+    height: 100px;
+    width: 100px;
+    position: relative;
   }
