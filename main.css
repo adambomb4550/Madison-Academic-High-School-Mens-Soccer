@@ -307,3 +307,42 @@ header {
 .sean p {
   padding-top: 10%;
 }
+
+.cam {
+  display: grid;
+  grid-template-columns: 15% 20%;
+  grid-template-rows: 15%;
+  justify-content: center;
+  grid-gap: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.cam img {
+  width: 100%;
+  height: 100%;
+}
+
+.cam p {
+  padding-top: 10%;
+}
+
+
+.alden {
+  display: grid;
+  grid-template-columns: 15% 20%;
+  grid-template-rows: 15%;
+  justify-content: center;
+  grid-gap: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.alden img {
+  width: 100%;
+  height: 100%;
+}
+
+.alden p {
+  padding-top: 10%;
+}
