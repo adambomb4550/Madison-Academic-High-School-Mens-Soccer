@@ -10,7 +10,7 @@
 <body>
   <header>
     <div class="container">
-      <img id= "logo" src="./img/logo.jpg" alt="logo" class="logo" />
+    <a href="index.html">  <img id= "logo" src="./img/logo.jpg" alt="logo" class="logo" /></a>
       <nav>
         <ul>
           <li><a href="Schedule.html">Schedule</a></li>
@@ -25,7 +25,7 @@
   <h1>Madison Academic High School Men's Soccer</h1>
   <div class="main">
 
-
+<div class="notfooter">
 
     <!-- Slideshow container -->
     <div class="slideshow-container">
@@ -65,38 +65,26 @@
   </div>
 
     <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-    }
 
-    function plusSlides(n) {
-      showSlides(slideIndex =+ n)
-    }
+    var slideIndex = 0;
+    showSlides();
 
-    function currentSlide (n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides (){
+    function showSlides() {
       var i;
-      var slides = document.getElementsByClassName("myslides");
-      var dots = document.getElementsByClassName("dot");
-      for (i= 0; i < slides.length; i++) {
+      var slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
       slideIndex++;
       if (slideIndex > slides.length) {slideIndex = 1}
-      for (i = 0; i < dpts.length; i++) {
-        dots[i].className = dots[i].className.replace("active","");
-      }
       slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += "active";
-      setTimeout(showSlides, 5000);
+      setTimeout(showSlides, 3000); // Change image every x seconds
     }
+
 
     </script>
 
-</div>
+
 
 
   <div class="info">
@@ -107,7 +95,17 @@
   <div class="info2">
     <p> This time i'll link to something else im thinking since this is a group photo ill make it a link to <a href="Meet the Team.html">Meet the Team</a>, ah i did it again. well i need some more space so imma keep typing. </p>
     <img src="https://www.gannett-cdn.com/-mm-/419d75dacae4473aa10ef4b29d1b09ff42bdf1c3/c=80-0-2920-2135/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318456679451-180406-soccer-mt-11.jpg?width=520&height=390&fit=crop">
+</div>
+</div>
 
+    <div class="foota">
+    <ol>
+      <li>Foloow me on instagram</li>
+      <li>Follow me on Twitter</li>
+      <li>Look at my farm</li>
+    </ol>
+    </div>
 </body>
+
 
 </html>
