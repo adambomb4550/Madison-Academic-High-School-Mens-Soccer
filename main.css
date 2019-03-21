@@ -420,10 +420,10 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
   justify-content: center;
   display: grid;
   grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20%;
+  grid-template-rows: 20% 20% 20% 20%;
   padding-bottom: 3%;
   padding-top: 5%;
-  
+  grid-row-gap: 10%;
 }
 
 .jed img {
@@ -435,20 +435,24 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
   padding-right: 2%;
 }
 
-.ed {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20%;
-  padding-bottom: 3%;
-  padding-top: 5%;
-}
+
 
 .ed img {
   width: 200%;
+  position: relative;
+  top: 5%;
 }
 
-.ed {
+.ed1 img {
+  padding-right: 26%;
+  width: 225%;
+  position: relative;
+  top: 5%;
+}
+
+.ed2 {
   padding-left: 26%;
   padding-right: 2%;
+  position: relative;
+  top: 5%;
 }
