@@ -423,9 +423,8 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
   grid-template-rows: 20% 20% 20% 20%;
   padding-bottom: 3%;
   padding-top: 5%;
-  grid-row-gap: 10%;
+  grid-row-gap: 2%;
 }
-
 .jed img {
   width: 200%;
 }
@@ -439,20 +438,17 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
 
 .ed img {
   width: 200%;
-  position: relative;
-  top: 5%;
+  
 }
 
 .ed1 img {
   padding-right: 26%;
   width: 225%;
-  position: relative;
-  top: 5%;
+
 }
 
 .ed2 {
   padding-left: 26%;
   padding-right: 2%;
-  position: relative;
-  top: 5%;
+
 }
