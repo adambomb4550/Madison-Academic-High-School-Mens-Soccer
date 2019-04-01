@@ -392,12 +392,11 @@ header {
   justify-content: center;
   display: grid;
   grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20%;
+  grid-template-rows: 20% 20% 20% 20%;
   padding-bottom: 3%;
   padding-top: 5%;
-  
+  grid-row-gap: 2%;
 }
-
 .jed img {
   width: 200%;
 }
@@ -407,20 +406,21 @@ header {
   padding-right: 2%;
 }
 
-.ed {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20%;
-  padding-bottom: 3%;
-  padding-top: 5%;
-}
+
 
 .ed img {
   width: 200%;
+  
 }
 
-.ed {
+.ed1 img {
+  padding-right: 26%;
+  width: 225%;
+
+}
+
+.ed2 {
   padding-left: 26%;
   padding-right: 2%;
+
 }
