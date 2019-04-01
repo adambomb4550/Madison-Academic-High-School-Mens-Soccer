@@ -1,8 +1,13 @@
+
+
+
+
 body{
-  width: 100%;
+  width: 87%;
   height: 100%;
   background-color: #E3E3E3;
 }
+
 
 
 
@@ -22,12 +27,13 @@ margin-top: 60px;
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 header {
   background-color: #888;
+  width: 110%;
   }
 
   header::after {
@@ -42,7 +48,7 @@ header {
   }
 
   nav {
-    float: right;
+
 
   }
 
@@ -50,13 +56,17 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
+    padding-left: 40%;
+
+    position: relative;
+    left: 4%;
   }
 
   nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 35px;
     padding-top: 40px;
-    padding-bottom: 23px;
+
     list-style: none;
     color: #C60021;
   }
@@ -296,6 +306,9 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
     height: 100px;
     width: 100px;
     position: relative;
+    top: 1%;
+    left: 3%;
+
   }
 
 
@@ -389,24 +402,55 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
 
 
 .notfooter {
-  height: 80%;
+  height: 90%;
   width: 100%;
 
 }
 
-.foota {
-  height: 20%;
+.notfoota {
+  height: 90%;
   width: 100%;
+}
+
+.foota {
+  position: relative;
+  top: 105%;
+  height: 15%;
+  width: 110%;
   background-color: #888;
   padding-bottom: 0;
 }
 
 .foota ol {
   list-style: none;
-
+  padding-top: 2%;
 }
 
 .foota li {
+  font-size: 14px;
+  font-family: Arial;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  color: #7ac4b1;
+  display: inline-block;
+}
+
+.fota {
+  position: relative;
+  top: 310%;
+  height: 15%;
+  width: 110%;
+  background-color: #888;
+  padding-bottom: 0;
+}
+
+.fota ol {
+  list-style: none;
+  padding-top: 3%;
+}
+
+.fota li {
   font-size: 14px;
   font-family: Arial;
   margin-left: 10%;
@@ -420,7 +464,7 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
   justify-content: center;
   display: grid;
   grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20% 20%;
   padding-bottom: 3%;
   padding-top: 5%;
   grid-row-gap: 2%;
@@ -438,7 +482,7 @@ li:hover:nth-child(n+8):nth-child(-n+38), li:nth-child(17){
 
 .ed img {
   width: 200%;
-  
+
 }
 
 .ed1 img {
