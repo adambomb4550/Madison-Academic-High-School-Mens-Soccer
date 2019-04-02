@@ -1,9 +1,12 @@
-
+html {
+  height: 100%;
+  width: 87%;
+}
 
 
 
 body{
-  width: 87%;
+  width: 100%;
   height: 100%;
   background-color: #E3E3E3;
 }
@@ -33,7 +36,7 @@ margin-top: 60px;
 
 header {
   background-color: #888;
-  width: 110%;
+  width: 100%;
   }
 
   header::after {
@@ -46,6 +49,28 @@ header {
     float: left;
     padding: 10px 0;
   }
+  #plzwork {
+
+  }
+
+  #plzwork ul {
+    padding: 0;
+    list-style: none;
+    padding-left: 35%;
+    padding-right: 10%;
+    position: relative;
+    left: 15%;
+  }
+
+  #plzwork li {
+    display: inline-block;
+
+
+
+    list-style: none;
+    
+  }
+
 
   nav {
 
@@ -56,17 +81,18 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-left: 40%;
-
+    padding-left: 35%;
+    padding-right: 10%;
     position: relative;
-    left: 4%;
+    left: 15%;
+
   }
 
   nav li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 3%;
     padding-top: 40px;
-
+    margin-right: 3%;
     list-style: none;
     color: #C60021;
   }
@@ -372,6 +398,31 @@ header {
   padding-top: 10%;
 }
 
+.notfootor {
+  height: 225%;
+  width: 100%;
+}
+.footo {
+  height: 15%;
+  width: 100%;
+  background-color: #888;
+  padding-bottom: 0;
+}
+
+.footo ol {
+  list-style: none;
+  padding-top: 2%;
+}
+
+.footo li {
+  font-size: 14px;
+  font-family: Arial;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  color: #7ac4b1;
+  display: inline-block;
+}
 
 .notfooter {
   height: 90%;
@@ -380,15 +431,14 @@ header {
 }
 
 .notfoota {
-  height: 90%;
+  height: 85%;
   width: 100%;
 }
 
 .foota {
-  position: relative;
-  top: 105%;
-  height: 15%;
-  width: 110%;
+
+  height: 10%;
+  width: 100%;
   background-color: #888;
   padding-bottom: 0;
 }
@@ -409,26 +459,26 @@ header {
 }
 
 .fota {
-  position: relative;
-  top: 310%;
+
   height: 15%;
-  width: 110%;
+  width: 100%;
   background-color: #888;
   padding-bottom: 0;
 }
 
 .fota ol {
   list-style: none;
-  padding-top: 3%;
+  padding-top: 10%;
+
 }
 
-.fota li {
-  font-size: 14px;
+.fota li #work {
+  font-size: 30px;
   font-family: Arial;
   margin-left: 10%;
   margin-top: 1.5%;
   margin-bottom: 1.5%;
-  color: #7ac4b1;
+  color: blue;
   display: inline-block;
 }
 
