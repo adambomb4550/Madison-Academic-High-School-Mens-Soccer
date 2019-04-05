@@ -570,16 +570,31 @@ width: 100%;
   grid-template-columns: 60% 20%;
   grid-auto-rows: 20%;
   border-color: black;
-  padding-bottom: 25;
+
 }
 
 .begging2 {
 
 }
 
+.write {
 
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100%;
+}
 
+#words {
 
+}
+
+#words2 {
+
+}
+
+#words3 {
+
+}
 
 
 
