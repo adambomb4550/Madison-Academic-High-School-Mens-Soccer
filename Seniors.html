@@ -30,188 +30,95 @@
 
 
     <!-- Slideshow container -->
-
-        <div class="slideshow-container">
-
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <div class="numbertext">1 / 6</div>
-            <img src="./img/Benito_R.JPG" style="width:100%">
-            <div class="text">Benito Rodriguez-Nunez has been playing soccer for almost as long as he could walk. He is very passionate about the sport and about the team. He also plays for the club team, the Jackson Wolves. he has played for the Mustangs for all 4 of his high school years and has no regrets.</div>
-
-          </div>
-
-
-
-
-          <div class="mySlides fade">
-
-            <div class="numbertext">2 / 6</div>
-
-            <img src="./img/Bolaji_O.JPG" style="width:100%">
-
-            <div class="text">Bolaji Olosanya has played all 4 years ontop of his recent few years with the Wolves. He has also played several other sports in his life, inculding basketball. "I ball out in church league," he tells his teammates.</div>
-
-          </div>
-
-
-
-
-
-          <div class="mySlides fade">
-
-            <div class="numbertext">3 / 6</div>
-
-            <img src="./img/Cam.jpg" style="width:100%">
-
-            <div class="text">Cameron Huelin</div>
-
-          </div>
-
-
-
-
-
-          <div class="mySlides fade">
-
-            <div class="numbertext">4 / 6</div>
-
-            <img src="./img/David_W.JPG" style="width:100%">
-
-            <div class="text">David Weissenfluh</div>
-
-          </div>
-
-
-
-
-
-          <div class="mySlides fade">
-
-            <div class="numbertext">5 / 6</div>
-
-            <img src="./img/Matthew_S.JPG" style="width:100%">
-
-            <div class="text">Matthew Steen</div>
-
-          </div>
-
-
-
-
-
-          <div class="mySlides fade">
-
-            <div class="numbertext">6 / 6</div>
-
-            <img src="./img/Joey_S.JPG" style="width:100%">
-
-            <div class="text">Joey Soriano</div>
-
-          </div>
-
-
-
-
-
-
-
-
-
-
-          <!-- Next and previous buttons -->
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-
-
-
-
-        <br>
-
-
-
-
-
-        <!-- The dots/circles -->
-
-        <div style="text-align:center">
-
-          <span class="dot" onclick="currentSlide(1)"></span>
-
-          <span class="dot" onclick="currentSlide(2)"></span>
-
-          <span class="dot" onclick="currentSlide(3)"></span>
-
-        </div>
-
-      </div>
-
-
-
-
-
-    <script>
-
-      var slideIndex = 1;
-
-      showSlides(slideIndex);
-
-
-      // Next/previous controls
-
-      function plusSlides(n) {
-
-        showSlides(slideIndex += n);
-
-      }
-
-
-      // Thumbnail image controls
-
-      function currentSlide(n) {
-
-        showSlides(slideIndex = n);
-
-      }
-
-
-      function showSlides(n) {
-
-        var i;
-
-        var slides = document.getElementsByClassName("mySlides");
-
-        var dots = document.getElementsByClassName("dot");
-
-        if (n > slides.length) {slideIndex = 1}
-
-        if (n < 1) {slideIndex = slides.length}
-
-        for (i = 0; i < slides.length; i++) {
-
-            slides[i].style.display = "none";
-
-        }
-
-        for (i = 0; i < dots.length; i++) {
-
-            dots[i].className = dots[i].className.replace(" active", "");
-
-        }
-
-        slides[slideIndex-1].style.display = "block";
-
-        dots[slideIndex-1].className += " active";
-
-      }
-
-
-    </script>
-
-
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="https://www.gannett-cdn.com/-mm-/a060069b7aa32bc07cbdf8b776d3837c2afe6a3b/c=42-0-2957-2192/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318320648323-180406-soccer-mt-08.jpg?width=520&height=390&fit=crop" style="width:100%">
+        <div class="text">Benito Rodriguez-Nunez has been playing soccer for almost as long as he could walk. He is very passionate about the sport and about the team. He also plays for the club team, the Jackson Wolves. he has played for the Mustangs for all 4 of his high school years and has no regrets.</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="https://www.gannett-cdn.com/-mm-/6b52f0623d7b8c421b7dff997cfd1f3d3e8e9ab0/c=199-0-2996-2103/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318621258396-180406-soccer-mt-16.jpg?width=520&height=390&fit=crop" style="width:100%">
+        <div class="text">Bolaji Olosanya has played all 4 years ontop of his recent few years with the Wolves</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="https://www.gannett-cdn.com/-mm-/419d75dacae4473aa10ef4b29d1b09ff42bdf1c3/c=80-0-2920-2135/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318456679451-180406-soccer-mt-11.jpg?width=520&height=390&fit=crop" style="width:100%">
+        <div class="text">Cameron Huelin</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="https://www.gannett-cdn.com/-mm-/419d75dacae4473aa10ef4b29d1b09ff42bdf1c3/c=80-0-2920-2135/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318456679451-180406-soccer-mt-11.jpg?width=520&height=390&fit=crop" style="width:100%">
+        <div class="text">David Weissenfluh</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="https://www.gannett-cdn.com/-mm-/419d75dacae4473aa10ef4b29d1b09ff42bdf1c3/c=80-0-2920-2135/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318456679451-180406-soccer-mt-11.jpg?width=520&height=390&fit=crop" style="width:100%">
+        <div class="text">Matthew Steen</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="https://www.gannett-cdn.com/-mm-/419d75dacae4473aa10ef4b29d1b09ff42bdf1c3/c=80-0-2920-2135/local/-/media/2018/04/09/TennGroup/JacksonTN/636588318456679451-180406-soccer-mt-11.jpg?width=520&height=390&fit=crop" style="width:100%">
+        <div class="text">Joey Soriano</div>
+      </div>
+
+
+
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+<script>
+
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+
+
+</script>
 
 
 

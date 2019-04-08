@@ -1,8 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
 body{
   width: 100%;
   height: 100%;
   background-color: #E3E3E3;
 }
+
 
 
 
@@ -22,12 +30,13 @@ margin-top: 60px;
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 header {
   background-color: #888;
+  width: 100%;
   }
 
   header::after {
@@ -41,8 +50,59 @@ header {
     padding: 10px 0;
   }
 
+  .tyrone {
+
+  }
+
+  .tyrone ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 35%;
+    padding-right: 10%;
+    position: relative;
+    left: 14%;
+
+  }
+
+  .tyrone li {
+    display: inline-block;
+    margin-left: 1.3%;
+    padding-top: 40px;
+    margin-right: 1.3%;
+    list-style: none;
+
+  }
+
+  #mj {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  #ab {
+    margin-left: 2.6%;
+  }
+
+  #po {
+    margin-left: 0%;
+  }
+
+  .tyrone a {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: arial;
+    padding: 0 auto;
+    color: #7ac4b1;
+    font-weight: bold;
+  }
+
+  .tyrone a:hover {
+    color: #6cb8a5;
+  }
+
+
   nav {
-    float: right;
+
 
   }
 
@@ -50,13 +110,18 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
+    padding-left: 35%;
+    padding-right: 10%;
+    position: relative;
+    left: 15%;
+    top: 20%;
   }
 
   nav li {
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 40px;
-    padding-bottom: 23px;
+    margin-left: 3%;
+    padding-top: 43px;
+    margin-right: 3%;
     list-style: none;
     color: #C60021;
   }
@@ -268,6 +333,9 @@ header {
     height: 100px;
     width: 100px;
     position: relative;
+    top: 1%;
+    left: 3%;
+
   }
 
 
@@ -359,23 +427,55 @@ header {
   padding-top: 10%;
 }
 
-
-.notfooter {
-  height: 80%;
+.notfootor {
+  height: 225%;
   width: 100%;
-
 }
-
-.foota {
-  height: 20%;
+.footo {
+  height: 15%;
   width: 100%;
   background-color: #888;
   padding-bottom: 0;
 }
 
+.footo ol {
+  list-style: none;
+  padding-top: 2%;
+}
+
+.footo li {
+  font-size: 14px;
+  font-family: Arial;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  color: #7ac4b1;
+  display: inline-block;
+}
+
+.notfooter {
+  height: 90%;
+  width: 100%;
+
+}
+
+.notfoota {
+  height: 85%;
+  width: 100%;
+}
+
+.foota {
+
+  height: 10%;
+  width: 100%;
+  background-color: #888;
+  padding-bottom: 0;
+
+}
+
 .foota ol {
   list-style: none;
-
+  padding-top: 2%;
 }
 
 .foota li {
@@ -388,11 +488,35 @@ header {
   display: inline-block;
 }
 
+.fota {
+
+  height: 15%;
+  width: 100%;
+  background-color: #888;
+  padding-bottom: 0;
+}
+
+.fota ol {
+  list-style: none;
+  padding-top: 10%;
+
+}
+
+.fota li #work {
+  font-size: 30px;
+  font-family: Arial;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  color: blue;
+  display: inline-block;
+}
+
 .jed {
   justify-content: center;
   display: grid;
   grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20% 20%;
   padding-bottom: 3%;
   padding-top: 5%;
   grid-row-gap: 2%;
@@ -410,7 +534,7 @@ header {
 
 .ed img {
   width: 200%;
-  
+
 }
 
 .ed1 img {
@@ -423,4 +547,79 @@ header {
   padding-left: 26%;
   padding-right: 2%;
 
+}
+.arnold {
+  text-align: center;
+  width:80%;
+  padding-left:20%;
+  padding-bottom: 2%;
+}
+
+.arnold img {
+height: 40%;
+width: 100%;
+}
+
+.arnold p {
+  text-align: center;
+}
+
+.begging {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 60% 20%;
+  grid-auto-rows: 20%;
+  border-color: black;
+
+}
+
+.begging2 {
+
+}
+
+.write {
+
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100%;
+}
+
+#words {
+
+}
+
+#words2 {
+
+}
+
+#words3 {
+
+}
+
+
+
+
+.fewta {
+
+  height: 10%;
+  width: 100%;
+  background-color: #888;
+  padding-bottom: 0;
+  position: relative;
+  top: 15%;
+}
+
+.fewta ol {
+  list-style: none;
+  padding-top: 2%;
+}
+
+.fewta li {
+  font-size: 14px;
+  font-family: Arial;
+  margin-left: 10%;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  color: #7ac4b1;
+  display: inline-block;
 }
