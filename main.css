@@ -578,10 +578,10 @@ width: 100%;
 }
 
 .write {
-
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 100%;
+  display: inline-grid;
+  grid-template-columns: 33% 1% 40% 40%;
+  grid-template-rows: 25%;
+  grid-column-gap: 5%;
 }
 
 #words {
