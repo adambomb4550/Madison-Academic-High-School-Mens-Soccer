@@ -21,6 +21,22 @@ color: #888;
 text-align:center;
 }
 
+h3 {
+  font-family: Arial;
+  color: #7ac4b1;
+}
+
+.jed p {
+  font-family: Arial;
+  color: #888;
+}
+
+
+.ed2 p {
+  font-family: Arial;
+  color: #888;
+}
+
 .main {
 display: flex;
 flex-wrap: wrap;
@@ -516,10 +532,10 @@ header {
   justify-content: center;
   display: grid;
   grid-template-columns: 10% 50% 10%;
-  grid-template-rows: 20% 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% ;
   padding-bottom: 3%;
   padding-top: 5%;
-  grid-row-gap: 2%;
+  grid-row-gap: 3%;
 }
 .jed img {
   width: 200%;
@@ -527,7 +543,11 @@ header {
 
 .jed2 {
   padding-left: 26%;
-  padding-right: 2%;
+  padding-right: 4%;
+}
+
+.jed3 {
+
 }
 
 
@@ -562,6 +582,8 @@ width: 100%;
 
 .arnold p {
   text-align: center;
+  font-family: Arial;
+  color: #888;
 }
 
 .begging {
@@ -574,7 +596,13 @@ width: 100%;
 }
 
 .begging2 {
+  font-family: Arial;
+  color: #888;
+}
 
+.begging3 {
+  font-family: Arial;
+  color: #7ac4b1;
 }
 
 .write {
@@ -622,4 +650,55 @@ width: 100%;
   margin-bottom: 1.5%;
   color: #7ac4b1;
   display: inline-block;
+}
+
+.sean3 h3 {
+  font-family: Arial;
+  color: #7ac4b1;
+  font-weight:bold;
+}
+
+.sean p {
+  font-family: Arial;
+  color: #888;
+}
+
+.collin3 h3 {
+  font-family: Arial;
+  color: #7ac4b1;
+}
+
+.collin3 p {
+  font-family: Arial;
+  color: #888;
+}
+
+.collinjoey3 h3 {
+  font-family: Arial;
+  color: #7ac4b1;
+}
+
+.collinjoey3 p {
+  font-family: Arial;
+  color: #888;
+}
+
+.seancam3 h3 {
+  font-family: Arial;
+  color: #7ac4b1;
+}
+
+.seancam3 p {
+  font-family: Arial;
+  color: #888;
+}
+
+.alden3 h3 {
+  font-family: Arial;
+  color: #7ac4b1;
+}
+
+.alden3 p {
+  font-family: Arial;
+  color: #888;
 }
